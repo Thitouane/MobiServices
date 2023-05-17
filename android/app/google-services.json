@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "271120179295",
+    "project_id": "mobideliv",
+    "storage_bucket": "mobideliv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271120179295:android:47fe4ae43c37b8e3fd3bea",
+        "android_client_info": {
+          "package_name": "com.example.mobideliv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271120179295-vj73hmff2csau5p1gcbhccp1dsv7q75a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDL64B0f_PeI4Q7zP8i8VSLMRRE8G6tM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271120179295-vj73hmff2csau5p1gcbhccp1dsv7q75a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
