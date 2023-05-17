@@ -1,0 +1,1 @@
+enum RdvStatus { waiting, confirmed }
