@@ -1,0 +1,83 @@
+name: mobideliv
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  js: ^0.6.2
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.2.0
+  cloud_firestore:
+  auto_route: ^5.0.4
+  http:
+  either_type:
+  equatable:
+  flutter_svg: ^1.1.6
+  sliding_up_panel: ^2.0.0+1
+  flutter_bloc:
+  flutter_modular:
+  get_it: ^7.2.0
+  flutter_map: ^3.0.0
+  flutter_map_marker_cluster:
+  flutter_map_marker_popup:
+  latlong2:
+  dio:
+  json_annotation:
+  material_floating_search_bar:
+  google_fonts: ^3.0.1
+  font_awesome_flutter: ^9.1.0
+  firebase_auth: ^4.2.2
+  image_picker:
+  firebase_storage:
+  permission_handler:
+  phone_number: ^1.0.0
+  intl: ^0.17.0
+  adaptive_theme:
+  location:
+  booking_calendar:
+  vibration:
+  url_launcher:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  auto_route_generator: ^5.0.3
+  build_runner:
+  bloc:
+  json_serializable:
+  flutter_native_splash: ^2.2.16
+
+
+# flutter clean
+# flutter pub get
+# flutter pub run flutter_native_splash:create
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/mobideliv.png
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/at_home/
+    - assets/ambulant/
+    - assets/icons/
+    - assets/images/
+  fonts:
+    - family: Spartan
+      fonts:
+        - asset: assets/fonts/LeagueSpartan-VariableFont_wght.ttf
+        - asset: assets/fonts/LeagueSpartan-Bold.ttf
+        - asset: assets/fonts/LeagueSpartan-ExtraBold.ttf
+        - asset: assets/fonts/LeagueSpartan-ExtraLight.ttf
+        - asset: assets/fonts/LeagueSpartan-Light.ttf
+        - asset: assets/fonts/LeagueSpartan-Medium.ttf
+        - asset: assets/fonts/LeagueSpartan-Regular.ttf
+        - asset: assets/fonts/LeagueSpartan-SemiBold.ttf
+        - asset: assets/fonts/LeagueSpartan-Thin.ttf
